@@ -1,0 +1,135 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+/* Write your CSS styles here */
+
+body {
+	background: white;
+    padding: 20px;
+}
+
+p {
+	font-family:Times New Roman;
+    color: black;
+}
+
+h1 {
+	color:black;
+	text-align: center;
+	font-size: 2em;
+	font-weight: 900;
+}
+
+h1#title { 
+    color: tomato;
+    font-family: impact;
+    letter-spacing: 5px;
+    word-spacing: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    background: grey;
+    border: 8px dashed white;
+    padding: 10px;
+}
+p#quip { 
+    color: grey;
+    font-weight: 100;
+    text-align: center;
+    margin: 20px;
+}
+
+div.work { 
+    text-align: left;
+}
+
+div.personal { 
+    color: lightblue;
+    font-family: 'Raleway', sans-serif;
+    border: 2px dashed lightblue;
+    width: 350px;
+}
+h2.name { 
+    color: tomato;
+    font-variant: small-caps;
+    text-align: center;
+}
+h2.random { 
+    font-weight: 200;
+    letter-spacing:5px;
+    text-align: center;
+}
+
+h2 { 
+	text-transform: small-caps;
+    font-family: arial;
+    font-size: 20px;
+    text-indent: 2em;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+ol#booklist {
+    font-variant: small-caps;
+    line-height: 20px;
+    padding:20px;
+}
+
+ul {
+padding: 20px;
+}
+
+span.links { font-family: comic sans ms;
+    font-size: 12px;
+    color: indianred;
+    text-align: justify;
+    background: peachpuff;
+}
